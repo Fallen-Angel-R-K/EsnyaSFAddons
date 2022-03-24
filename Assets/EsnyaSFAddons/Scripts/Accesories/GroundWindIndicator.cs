@@ -1,8 +1,6 @@
 using TMPro;
 using UdonSharp;
 using UnityEngine;
-using VRC.SDKBase;
-using VRC.Udon;
 
 namespace EsnyaSFAddons
 {
@@ -14,7 +12,6 @@ namespace EsnyaSFAddons
         [UdonSharpComponentInject] public SAV_WindChanger windChanger;
         public Transform directionIndicator;
         public TextMeshProUGUI speedText;
-
 
         private void OnEnable()
         {
