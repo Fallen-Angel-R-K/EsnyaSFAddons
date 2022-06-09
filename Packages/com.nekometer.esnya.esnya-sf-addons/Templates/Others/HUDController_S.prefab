@@ -270,6 +270,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6973869430370287499, guid: ec338f04339751d4abf06ae86a2d409b,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -6973869430370287499, guid: ec338f04339751d4abf06ae86a2d409b,
+        type: 3}
     - target: {fileID: 120576077967606071, guid: ec338f04339751d4abf06ae86a2d409b,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -476,12 +482,6 @@ PrefabInstance:
       propertyPath: _syncMethod
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2637390962827783789, guid: ec338f04339751d4abf06ae86a2d409b,
-        type: 3}
-      propertyPath: serializedProgramAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: d2ccb36bd87424b47a2e477d54ef42ef,
-        type: 2}
     - target: {fileID: 2637390962827783789, guid: ec338f04339751d4abf06ae86a2d409b,
         type: 3}
       propertyPath: serializedPublicVariablesBytesString

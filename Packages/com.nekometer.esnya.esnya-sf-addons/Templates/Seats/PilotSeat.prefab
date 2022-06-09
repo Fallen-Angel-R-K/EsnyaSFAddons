@@ -7,6 +7,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2181483415886777253, guid: 1e861e8f359d6f94fa2d739701e2ec4f,
+        type: 3}
+      propertyPath: IsPilotSeat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181483415886777253, guid: 1e861e8f359d6f94fa2d739701e2ec4f,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 2181483415886777253, guid: 1e861e8f359d6f94fa2d739701e2ec4f,
+        type: 3}
     - target: {fileID: 3512272463040103152, guid: 1e861e8f359d6f94fa2d739701e2ec4f,
         type: 3}
       propertyPath: interactText
@@ -92,6 +103,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4048371212179463265}
     m_Modifications:
+    - target: {fileID: -3167025099071339905, guid: 6f6623aa3be10b74091db68ef4f5d8f3,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -3167025099071339905, guid: 6f6623aa3be10b74091db68ef4f5d8f3,
+        type: 3}
     - target: {fileID: 191248627231067798, guid: 6f6623aa3be10b74091db68ef4f5d8f3,
         type: 3}
       propertyPath: m_RootOrder
@@ -152,6 +169,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeyboardControls
       objectReference: {fileID: 0}
+    - target: {fileID: 3157760307065968712, guid: 6f6623aa3be10b74091db68ef4f5d8f3,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f6623aa3be10b74091db68ef4f5d8f3, type: 3}
 --- !u!1001 &4423242854142025806
@@ -161,10 +183,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4048371212179463265}
     m_Modifications:
+    - target: {fileID: -8597869218974609266, guid: 8df29b3970d350849ad8f43502d4bf87,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -8597869218974609266, guid: 8df29b3970d350849ad8f43502d4bf87,
+        type: 3}
     - target: {fileID: 1457678646022298930, guid: 8df29b3970d350849ad8f43502d4bf87,
         type: 3}
       propertyPath: m_Name
       value: ResupplyTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057108904273729372, guid: 8df29b3970d350849ad8f43502d4bf87,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7493230582876823572, guid: 8df29b3970d350849ad8f43502d4bf87,
         type: 3}

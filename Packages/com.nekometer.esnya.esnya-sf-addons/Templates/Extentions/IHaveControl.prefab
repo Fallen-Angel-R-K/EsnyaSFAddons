@@ -86,10 +86,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4417090854727977359}
     m_Modifications:
+    - target: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
     - target: {fileID: 154283083509058020, guid: f237352874f176042bec26161d239b9b,
         type: 3}
       propertyPath: m_Name
       value: DFUNC_EX_Empty
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076379007653682604, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6756377865067205198, guid: f237352874f176042bec26161d239b9b,
         type: 3}
@@ -148,6 +159,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f237352874f176042bec26161d239b9b, type: 3}
+--- !u!114 &3779759649186010239 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 822713526363860210}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b5baafaede9664585e850db8439db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2439723941371654494 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3076379007653682604, guid: f237352874f176042bec26161d239b9b,
@@ -352,10 +375,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4417090855475331960}
     m_Modifications:
+    - target: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
     - target: {fileID: 154283083509058020, guid: f237352874f176042bec26161d239b9b,
         type: 3}
       propertyPath: m_Name
       value: DFUNC_EX_Empty
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076379007653682604, guid: f237352874f176042bec26161d239b9b,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6756377865067205198, guid: f237352874f176042bec26161d239b9b,
         type: 3}
@@ -414,6 +448,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f237352874f176042bec26161d239b9b, type: 3}
+--- !u!114 &2244952192506586106 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4675093994592143219, guid: f237352874f176042bec26161d239b9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2321912199533239159}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b5baafaede9664585e850db8439db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &758971709267740379 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3076379007653682604, guid: f237352874f176042bec26161d239b9b,
@@ -433,16 +479,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 372594964061249454, guid: 837db6318cc6a7248912e2a27401a245,
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
         type: 3}
-      propertyPath: serializedProgramAsset
+      propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 372594964329855427, guid: 837db6318cc6a7248912e2a27401a245,
+      objectReference: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
         type: 3}
-      propertyPath: serializedProgramAsset
-      value: 
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_L.Array.size
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_R.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_L.Array.data[0]
+      value: 
+      objectReference: {fileID: 2244952192506586106}
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_L.Array.data[1]
+      value: 
+      objectReference: {fileID: 4795558898233986527}
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_R.Array.data[0]
+      value: 
+      objectReference: {fileID: 3779759649186010239}
+    - target: {fileID: -2406207268871031763, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: Dial_Functions_R.Array.data[1]
+      value: 
+      objectReference: {fileID: 6175842508794236202}
+    - target: {fileID: -1996156727745569407, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -1996156727745569407, guid: 837db6318cc6a7248912e2a27401a245,
+        type: 3}
     - target: {fileID: 372594964329855427, guid: 837db6318cc6a7248912e2a27401a245,
         type: 3}
       propertyPath: serializedPublicVariablesBytesString
@@ -725,6 +803,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4417090855475331960}
     m_Modifications:
+    - target: {fileID: 462033181079836952, guid: 3d34efec88694f944bc6f66482f9fc96,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 462033181079836952, guid: 3d34efec88694f944bc6f66482f9fc96,
+        type: 3}
+    - target: {fileID: 3755313463066164164, guid: 3d34efec88694f944bc6f66482f9fc96,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3785738319546384218, guid: 3d34efec88694f944bc6f66482f9fc96,
         type: 3}
       propertyPath: m_Name
@@ -787,6 +876,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d34efec88694f944bc6f66482f9fc96, type: 3}
+--- !u!114 &4795558898233986527 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 462033181079836952, guid: 3d34efec88694f944bc6f66482f9fc96,
+    type: 3}
+  m_PrefabInstance: {fileID: 4964171656605357255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743a0ac721539304ba0481dd10739ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8140760318307118851 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3755313463066164164, guid: 3d34efec88694f944bc6f66482f9fc96,
@@ -935,10 +1036,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4417090854727977359}
     m_Modifications:
+    - target: {fileID: -8665741015237380816, guid: 852acd9e09d2a9140ad825aed93653b9,
+        type: 3}
+      propertyPath: Dial_Funcon
+      value: 
+      objectReference: {fileID: 709781299311754315}
+    - target: {fileID: -8665741015237380816, guid: 852acd9e09d2a9140ad825aed93653b9,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: -8665741015237380816, guid: 852acd9e09d2a9140ad825aed93653b9,
+        type: 3}
     - target: {fileID: 1113314666245282524, guid: 852acd9e09d2a9140ad825aed93653b9,
         type: 3}
       propertyPath: m_Name
       value: DFUNCP_IHaveControl
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265566636323367407, guid: 852acd9e09d2a9140ad825aed93653b9,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4265566636323367407, guid: 852acd9e09d2a9140ad825aed93653b9,
         type: 3}
@@ -1012,6 +1129,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 852acd9e09d2a9140ad825aed93653b9, type: 3}
+--- !u!114 &6175842508794236202 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8665741015237380816, guid: 852acd9e09d2a9140ad825aed93653b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 5911003646946850842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c244009a9626b46b8965099652f350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7582456754915627509 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4265566636323367407, guid: 852acd9e09d2a9140ad825aed93653b9,
